@@ -2,7 +2,7 @@
   "name": "my-telemedicine-app",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://MOM0BAMI.github.io/IT-Varsity---Hackathon-Project",
+  "homepage": "https://mom0bami.github.io/IT-Varsity---Hackathon-Project/",
   "dependencies": {
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
