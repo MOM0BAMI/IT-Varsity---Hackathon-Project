@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8"><!-- Set character encoding for the document -->
+
+        <!-- Responsive design: adjusts layout for different devices -->
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Page title displayed in the browser tab -->
+        <!-- TODO: Add title -->
+        <title>Title??</title>
+
+        <!-- TODO: Add og and twitter tags? -->
+
+        <!-- TODO: ADD SEO meta tags ? -->
+
+        <!-- Preconnect to optimize font loading -->
+        <!-- ?Which fonts -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+        <!-- Google Fonts stylesheet -->
+        <link
+            href="https://fonts.googleapis.com/css2?family=Racing+Sans+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+            rel="stylesheet">
+            
+        <!-- Favicon for the site -->
+        <link rel="icon" href="public/favicon.ico">
+
+        <!-- Link to external CSS stylesheet -->
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+
+        <header>
+
+            <!-- Hamburger menu -->
+            <nav class="header__hamburger-menu">
+                <input type="checkbox" class="toggle-menu" title="Menu">
+                <div class="hamburger" title="Menu"></div>
+                <ul class="header__menu">
+                    <!-- TODO: Add necessary links -->
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <!-- App Logo -->
+            <!-- TODO: check to see if home is correct -->
+            <section class="app-logo">
+                <a href="home.html" title="Home">
+                    <!-- TODO: change img src and confirm app name -->
+                    <!-- TODO: CHeck width and height -->
+                    <img src="images/logo192.png" alt="App Logo" width="192"
+                        height="192">
+                    <h1>App name</h1>
+                </a>
+            </section>
+
+            <!-- Menubar -->
+            <nav class="header__menubar">
+                <ul>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+
+            <section class="profile">
+                <input type="radio" name="profile" id="profile-view">
+                <input type="radio" name="profile" id="profile-close" checked
+                    aria-checked="true">
+                <label for="profile-view">
+                    <img src="images/profile.png" alt="Profile" width="50px"
+                        height="50px" title="Profile">
+                </label>
+                <div class="profile__content">
+                    <label for="profile-close">
+                        <p>X</p>
+                    </label>
+                    <div class="profile__content-items">
+                        <h3><b>Full Names: </b></h3>
+                        <p>John Doe</p>
+                    </div>
+                    <div class="profile__content-items">
+                        <h3><b>Username: </b></h3>
+                        <p>User 1</p>
+                    </div>
+                    <div class="profile__content-items">
+                        <h3><b>Email Address: </b></h3>
+                        <p>Myaddress@email.com</p>
+                    </div>
+                    <div class="profile__content-items">
+                        <h3><b>Contact Number </b></h3>
+                        <p>012 345 6789</p>
+                    </div>
+                    <img class="edit" src="images/edit.png" alt="Edit"
+                        width="25px"
+                        height="25px" title="Edit">
+                    <img class="settings" src="images/settings.png"
+                        alt="Settings"
+                        width="25px"
+                        height="25px" title="Settings">
+                </div>
+            </section>
+
+        </header>
+
+        <nav>
+            <p>hellooooooo</p>
+        </nav>
+
+        <main class="home-main">
+            <h1 class="center">Facilities</h1>
+            <div class="facilities">
+                <img src="images/med-rsrc-loc.jpg" alt="Med">
+                <h2></h2>
+                <p></p>
+            </div>
+
+            <aside class="chatbot">
+                <input type="checkbox" id="chatbot-click">
+                <label for="chatbot-click"><img src="images/chatbot.png"
+                        alt="Chatbot"
+                        width="50px"
+                        height="50px" title="Get Instant Support"></label>
+                <p>How can we help you?</p>
+                <textarea name="chatbot" id="chatbot"
+                    placeholder="How can we help you?"></textarea>
+
+            </aside>
+        </main>
+
+        <footer>
+        </footer>
+
+    </body>
+</html>
