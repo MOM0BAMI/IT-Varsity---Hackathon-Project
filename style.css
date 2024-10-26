@@ -30,6 +30,7 @@ textarea {
 :root {
     /* Borders */
     --BORDER-RADIUS-SMALL: .5em;
+    --BORDER-RADIUS-MEDIUM: 1em;
 
     /* Colors */
     --FIXED-COLORS: red;
@@ -529,7 +530,8 @@ header {
 
 .home-main {
     padding: var(--SMALL-PADDING);
-    margin-top: 15vh;
+    margin-top: 12vh;
+    background-color: papayawhip;
 }
 
 /* .emergency {
@@ -545,6 +547,54 @@ header {
     padding: 0;
     margin: 0;
 } */
+
+
+
+.facilities {
+    width: 100%;
+    margin-top: 3em;
+    display: flex;
+    flex-direction: column;
+    row-gap: 3em;
+    justify-content: space-evenly;
+}
+
+.facilities-categories {
+    width: 80%;
+    /* height: 500px; */
+    /* height: 400px; */
+    height: 50vh;
+    /* height: clamp(400px, 50vh,); */
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    /* row-gap: 1em; */
+    background-color: pink;
+    padding-bottom: 1em;
+    border-radius: var(--BORDER-RADIUS-MEDIUM);
+    transition: transform var(--TRANSITION-MEDIUM);
+    
+}
+
+.facilities-categories img {
+    /* display: blo; */
+    width: 100%;
+    height: clamp(200px, 40%, 250px);
+    /* height: 40%; */
+    /* height: 200px; */
+    border-top-left-radius: var(--BORDER-RADIUS-MEDIUM);
+    border-top-right-radius: var(--BORDER-RADIUS-MEDIUM);
+}
+
+.facilities-categories:is(:hover, :focus) {
+    transform: scale(1.1);
+}
+
+
+
+
+
 
 .chatbot {
     /* margin-top: 10vh; */
@@ -600,9 +650,7 @@ header {
 
 
 
-.chatbot p {
-    position: absolute;
-}
+
 
 .chatbot textarea {
     /* display: none; */
@@ -660,10 +708,21 @@ footer {
 
 
 
-@media only screen and (min-width: 576px) {}
+@media only screen and (min-width: 576px) {
+    .facilities {
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .facilities-categories {
+        width: 30%;
+    }
+}
 
 @media only screen and (min-width: 768px) {
-    
+    .facilities-categories {
+        width: 20%;
+    }
 }
 
 @media only screen and (min-width: 768px) and (min-height: 550px) {
