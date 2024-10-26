@@ -6,4 +6,9 @@ footer {
     position: fixed;
     bottom: 0;
     width: 100%;
+    transition: transform 0.3s ease; /* Smooth transition for hiding */
+}
+
+footer.hidden {
+    transform: translateY(100%); /* Move the footer down to hide it */
 }

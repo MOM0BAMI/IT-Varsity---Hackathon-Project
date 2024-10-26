@@ -1,0 +1,38 @@
+.emergency-contacts {
+    padding: 20px;
+    background-color: #f8f9fa; /* Light background for contrast */
+    border-radius: 8px; /* Rounded corners */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+}
+
+.emergency-contacts h2 {
+    font-size: 1.5rem; /* Larger heading for visibility */
+    color: #dc3545; /* Red color for urgency */
+    margin-bottom: 15px; /* Space below the heading */
+}
+
+.emergency-contacts ul {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0; /* Remove default padding */
+}
+
+.emergency-contacts li {
+    display: flex; /* Use flexbox for alignment */
+    justify-content: space-between; /* Space between contact name and number */
+    padding: 10px 0; /* Vertical padding for each list item */
+    border-bottom: 1px solid #e9ecef; /* Light border for separation */
+}
+
+.emergency-contacts button {
+    background-color: #007bff; /* Bootstrap primary color */
+    color: white; /* White text for contrast */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    padding: 5px 10px; /* Button padding */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s; /* Smooth transition */
+}
+
+.emergency-contacts button:hover {
+    background-color: #0056b3; /* Darker blue on hover */
+}

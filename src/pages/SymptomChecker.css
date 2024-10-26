@@ -1,0 +1,92 @@
+/* src/pages/SymptomChecker.css */
+
+.symptom-checker-container {
+    padding: 20px;
+    max-width: 600px;
+    margin: auto;
+    text-align: center;
+    background-color: #f9f9f9; /* Light background for contrast */
+    border-radius: 10px; /* Rounded corners for a softer look */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  }
+  
+  .symptom-checker-input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    transition: border-color 0.3s; /* Smooth transition for border color */
+  }
+  
+  .symptom-checker-input:focus {
+    border-color: #007bff; /* Change border color on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  .symptom-checker-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s; /* Smooth transition for background color */
+  }
+  
+  .symptom-checker-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .results-container {
+    margin-top: 20px;
+    text-align: left;
+  }
+  
+  .disease-item {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 15px;
+    margin: 10px 0;
+    background-color: #fff; /* White background for items */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05); /* Light shadow for item depth */
+  }
+  
+  .disease-item h3 {
+    color: #333;
+    margin: 0 0 10px; /* Spacing below the title */
+    font-size: 18px; /* Slightly larger title */
+  }
+  
+  .disease-item p,
+  .disease-item strong {
+    color: #555;
+  }
+  
+  .suggestions-list {
+    position: absolute;
+    background-color: white;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+    max-height: 150px;
+    overflow-y: auto;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Subtle shadow for suggestions */
+  }
+  
+  .suggestions-list li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s; /* Smooth background color change */
+  }
+  
+  .suggestions-list li:hover {
+    background-color: #f0f0f0; /* Highlight on hover */
+  }
+  

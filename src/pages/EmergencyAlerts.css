@@ -1,0 +1,12 @@
+/* src/styles/EmergencyAlerts.css */
+.emergency-alerts {
+    padding: 20px;
+    background-color: #f8d7da; /* Light red background */
+    color: #721c24; /* Dark red text */
+    border: 1px solid #f5c6cb; /* Border color */
+  }
+  
+  .emergency-alerts h1 {
+    color: #d9534f; /* Bootstrap danger color */
+  }
+  
