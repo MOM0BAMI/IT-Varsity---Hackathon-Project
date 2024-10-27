@@ -1,6 +1,56 @@
 /* Header.css */
+*,
+*:before,
+*:after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 header {
-    background-color: #f8f9fa;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    min-height: 20vh;
+    background-image: linear-gradient(lightblue, lightskyblue, lightsteelblue);
     text-align: center;
     padding: 1rem;
+}
+
+h1 {
+    margin-bottom: 1em;
+    background-image: linear-gradient(#000, #222, #444);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    background-position: center;
+    font-size: 2.2em;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    -moz-column-gap: 3em;
+    column-gap: 3em;
+    row-gap: 1.5em;
+    flex-wrap: wrap;
+}
+
+li {
+    list-style-type: none;
+    cursor: pointer;
+    color: purple;
+    transition: all .5s;
+    font-size: 1.2em;
+}
+
+li:is(:hover, :focus) {
+    transform: scale(1.1);
+    color: darkgoldenrod;
+}
+
+li:active {
+    -webkit-filter: brightness(1.5);
+    filter: brightness(1.5);
 }
