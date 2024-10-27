@@ -30,6 +30,7 @@ const Footer = () => {
     <footer className={hidden ? 'hidden' : ''}>
       <Link to="/terms">Terms and Conditions</Link>
       <Link to="/emergency-contact">Emergency Contacts</Link> {/* Link for Emergency Contacts */}
+      <Link to="/health-resources">Health Resources</Link> {/* Link for Health Resources */}
       <p>&copy; 2024 Telemedicine App. All rights reserved.</p>
     </footer>
   );

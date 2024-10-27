@@ -4,10 +4,13 @@
   "private": true,
   "homepage": "https://mom0bami.github.io/IT-Varsity---Hackathon-Project/",
   "dependencies": {
+    "@react-google-maps/api": "^2.20.3",
+    "axios": "^1.7.7",
+    "dexie": "^4.0.9",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-router-dom": "^6.27.0",
-    "react-scripts": "5.0.1",
+    "react-scripts": "^5.0.1",
     "web-vitals": "^4.2.4",
     "xlsx": "^0.18.5"
   },
@@ -38,6 +41,7 @@
     ]
   },
   "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
     "gh-pages": "^4.0.0"
   }
 }

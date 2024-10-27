@@ -1,4 +1,5 @@
 // src/App.js
+
 import React, { useState } from 'react';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Header from './components/Header';
@@ -11,7 +12,11 @@ import UserMedicalInfo from './pages/UserMedicalInfo';
 import PatientDataDisplay from './components/PatientDataDisplay';
 import EmergencyAlerts from './pages/EmergencyAlerts';
 import EmergencyContact from './pages/EmergencyContact';
-import SymptomChecker from './pages/SymptomChecker'; // Import the Symptom Checker component
+import SymptomChecker from './pages/SymptomChecker';
+import HealthLog from './pages/HealthLog'; 
+import HealthResources from './pages/HealthResources';
+import MedicineLocator from './pages/MedicineLocator';
+import Chatbot from './pages/Chatbot'; // Import the Chatbot component
 import './styles/App.css';
 
 function App() {
@@ -35,7 +40,11 @@ function App() {
           <Route path="/patient-data" element={<PatientDataDisplay />} />
           <Route path="/emergency-alerts" element={<EmergencyAlerts />} />
           <Route path="/emergency-contact" element={<EmergencyContact />} />
-          <Route path="/symptom-checker" element={<SymptomChecker />} /> {/* Symptom Checker Route */}
+          <Route path="/symptom-checker" element={<SymptomChecker />} />
+          <Route path="/health-log" element={<HealthLog />} />
+          <Route path="/health-resources" element={<HealthResources />} />
+          <Route path="/medicine-locator" element={<MedicineLocator />} />
+          <Route path="/chatbot" element={<Chatbot />} /> {/* Added Chatbot route */}
         </Routes>
         <Footer />
       </div>

@@ -1,0 +1,16 @@
+/* src/pages/MedicineLocator.css */
+
+.medicine-locator-container {
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .medicine-locator-container h1 {
+    color: #2c3e50;
+    margin-bottom: 10px;
+  }
+  
+  .medicine-locator-container p {
+    color: #7f8c8d;
+  }
+  
